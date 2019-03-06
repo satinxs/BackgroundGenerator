@@ -7,7 +7,7 @@
     "setup": "npm i -g gulp && gulp clean",
     "dev": "gulp clean && gulp dev",
     "build": "gulp build",
-    "release": "gulp release"
+    "release": "gulp release && rm -rf docs && cp -r public docs"
   },
   "keywords": [],
   "author": "satinxs",
